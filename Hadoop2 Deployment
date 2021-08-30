@@ -1,3 +1,6 @@
+#Step1 Configure EC2 Instance on AWS with UBUNTU 16.04(LTS), T2-Micro, Tag -NN(NameNode) and Security Group- Defaul
+#Goto Security Group -> default -> Edit Inbound Rule -> Add-> All Trafic -MyIP -> Save
+
 # Connect To the DataCenter with Public Key or Private in case of windows through Putty.
 
 ssh -i Downloads/file.pem ubuntu@public_dns_address
